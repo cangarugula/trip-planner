@@ -2,7 +2,7 @@ console.log("hello")
 const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js")
 const buildMarker = require('./marker')
 
-mapboxgl.accessToken = "pk.eyJ1IjoiY2FuZ2Fyb282NjQiLCJhIjoiY2prZnR3a2o0MGN3YjNwa3g5dXA1YjVoZyJ9.OZSYiU1vSXzSN_L3oKccJQ"
+mapboxgl.accessToken = "API TOKEN HERE"
 
 const map = new mapboxgl.Map({
   container: 'map',
