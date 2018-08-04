@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+
+.container{
+  display: flex;
+  position: relative;
+  right: 0px;
+  width: 250px;
+  height: 250px;
+  background-color: lightgray;
+  margin: 20px
+}
+
+
+#activities {
+  margin: 15px;
+}
+
+
+
+.category {
+  height: 10px;
+}
+
+#identity-header {
+  margin: 0;
+}
